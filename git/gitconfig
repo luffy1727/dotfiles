@@ -1,0 +1,25 @@
+[user]
+	name = Chintushig Ochirsukh
+	email = choc@boozt.com
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
+[alias]
+	dd = !git fetch origin && git rebase upstream/master
+	l = log --graph --pretty=format:'%C(magenta)%h%C(blue)%d%Creset %s %C(blue bold)- %an, %ar%Creset'
+	ll = log --stat --abbrev-commit
+	aa = commit --amend
+	a = add
+	c = commit
+	cam = commit -am
+	co = checkout
+	d = diff
+	s = status -sb
+
+# https://github.com/so-fancy/diff-so-fancy
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+
